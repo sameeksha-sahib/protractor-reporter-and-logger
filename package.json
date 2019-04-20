@@ -1,0 +1,21 @@
+{
+  "name": "protractor-reporter-and-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conf.js",
+  "scripts": {
+    "protractortest": "protractor conf.js",
+    "report": "allure generate allure-results --clean -o allure-report || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor-html-reporter-2": "^1.0.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.9.0",
+    "protractor-beautiful-reporter": "^1.2.7"
+  }
+}

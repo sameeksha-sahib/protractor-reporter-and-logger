@@ -1,0 +1,6 @@
+{ level: 'info',
+  message: 'launched google.com',
+  timestamp: '2019-04-20T11:57:48.200Z' }
+{ level: 'info',
+  message: 'launched gmail.com',
+  timestamp: '2019-04-20T11:58:21.273Z' }
